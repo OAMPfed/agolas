@@ -1,0 +1,22 @@
+.houses-choices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.choose-house-title{
+    text-align: center;
+}
+#house-flavour-text{
+    margin-top: 20px;
+}
+.house-name{
+    font-size: 25px;
+    text-align: center;
+}
+.house-words{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}

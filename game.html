@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Pure HTML, CSS and JavaScript Snakes and Ladders game based on the Game of Thrones universe">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, game, boardgame, game of thrones, snakes and ladders">
+    <meta name="author" content="OAMP">
+    <meta name="robots" content="noindex">
+    <title>A Game Of Ladders And Snakes</title>
+    <link rel="icon" type="image/png" href="img/shield_4.png">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <meta property="og:title" content="A Game of Snakes and LAdders">
+    <meta property="og:description"
+        content="Pure HTML, CSS and JavaScript Snakes and Ladders game based on the Game of Thrones universe">
+    <meta property="og:image" content="img/shield_4.png">
+    <meta property="og:url" content="https://www.oamp.dev/game.html">
+</head>
+
+<body>
+    <div class="game-wrapper">
+        <div id="game">
+            <!-- JS renders the board here -->
+        </div>
+        <div class="game-info">
+            <h2 id="game-title">AGOLAS</h2>
+            <div id="info-wrapper">
+                <p>
+                    AGOLAS is a 'Game of Thrones' inspired Snakes and Ladder type boardgame.
+                    The game is simple. Align yourself with a house and become their champion in the ultimate
+                    quest to become the ruling faction of the known world. Roll the dice and risk it all. Winnings are
+                    coming.
+                </p>
+                <h2>The Rules</h2>
+                <ul>
+                    <li>The player rolls a dice once per turn. If a roll results in 6, another roll is automatically
+                        done.
+                    </li>
+                    <li>There are hidden traps that will trigger random events resulting in penalties. </li>
+                    <li>The winner is the first player to land exactly on tile 30. Rolls that move past the final tile
+                        will be subtracted and the player will move backwards until a roll lands on tile 30.</li>
+
+                </ul>
+                <button onclick="prepareGame()">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script/board-logic.js"></script>
+</body>
+
+</html>

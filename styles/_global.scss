@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada|MedievalSharp&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #DFE6E9;
+    font-family: 'Lemonada', cursive;
+    font-size: 15px;
+}
+.game-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.game-info{
+    margin-left: 50px;
+    width: 600px;
+    margin-top: 25px;
+}
+#game-title{
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 40px;
+}
+.player-wrapper{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+button{
+    padding: 10px;
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    transition: 200ms;
+    border-radius: 5px;
+    &:hover{
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}

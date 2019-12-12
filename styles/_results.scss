@@ -1,0 +1,36 @@
+.win-modal-wrapper-class{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.win-modal-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    padding: 20px;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: calc(50%-125px);
+    margin-top: 200px;
+    a{
+        padding: 10px;
+        width: 150px;
+        color: black;
+        transition: 200ms;
+        border-radius: 5px;
+        &:hover{
+            transform: scale(1.1);
+            background-color: black;
+            color: white;
+        }
+    }
+}

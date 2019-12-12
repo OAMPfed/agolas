@@ -1,0 +1,36 @@
+.player-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.player-information{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: inset 0px 0px 0px 10px rgba(52,73,94,1);
+    &-p{
+        margin: 5px;
+        font-size: 20px;
+        font-style: bold;
+        &-content{
+            font-size: 15px;
+        }
+    }
+}
+.player-house-img{
+    width: 50px;
+    height: auto;
+    margin-left: 101px;
+}
+.player-house-img-wrapper{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+#dice{
+    margin-top: 10px;
+}
